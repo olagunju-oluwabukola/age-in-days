@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Document</title>
+</head>
+<body>
+<div class="container">
+ <h1>Your age in days</h1>
+
+ <div class="btn-container">
+  <div class="btn">
+   <button class="btn-1" onclick="ageInDays()">Click me</button>
+ 
+  </div> 
+  <div class="btn">
+   <button class="btn-2" onclick="reset()">reset</button>
+  </div>
+  
+ </div>
+ <div class="container">
+  <div id="result"></div>
+ </div> 
+ </div>
+<div class="container-2">
+ <h2>Cat Generator</h2>
+ <button class="btn" id="cat-gen" onclick="generateImg()">Generate</button>
+ <div class="flexbox-img" id="flex-img-gen">
+ 
+ </div>
+</div>
+
+<div class="name">
+ <label for="name">Enter name</label> <br>
+
+<button class="btn" id="value" onclick="nameValue()" >Show cost</button>
+<input type="text"  id="namelenght">
+<div class="result" >
+
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
